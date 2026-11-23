@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "keys_mod",
+  "version": "${version}",
+  "name": "Keys",
+  "description": "Adds a hostile yellow door key mob that can only be spawned with its spawn egg.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.keysmod.KeysMod"],
+    "client": ["com.example.keysmod.KeysModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
